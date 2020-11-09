@@ -1,5 +1,7 @@
 * {
 	font-family: cursive;
+	color: black;
+
 }
 #header-nav {
 	background-color: grey;
@@ -14,17 +16,17 @@
 	text-decoration: none;
 }
 .navbar-brand h1 {
-	color: black;
 	margin-top: 0;
 	margin-bottom: 0;
 	font-weight: bold;
 	font-size: 1.6em;
+	color: black;
+
 }
 #nav-list{
 	margin-top: 10px;
 }
 #nav-list a {
-	color: black;
 	text-align: center;
 	font-size: 1.5em;
 }
@@ -39,20 +41,24 @@
   margin-top: -30px;
  }
  h2 {
- 	color: black;
 	font-weight: bold;
 	margin-bottom: 30px;
  }
  h3 {
-    color: black;
  	font-weight: bold;
  }
  section {
  	background-color: grey;
- 	color: black;
  	padding: 1px 15px;
  	margin-bottom: 20px;
 }
 p {
 	font-size: 1.3em;
+}
+section a {
+	color: blue;
+
+}
+section a:hover , section a:focus {
+	color: white;
 }
